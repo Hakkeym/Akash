@@ -1,0 +1,8 @@
+.nav{
+    color: red;
+    display: block;
+    position: fixed;
+    right: 50px;
+    bottom: 400px;
+    visibility: visible;
+}

@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="jombotron">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="finalwork.css">
+	<link rel="stylesheet" href="styles.css">
 
 
 	
@@ -31,9 +32,16 @@
     </style>
 </a>
         
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-togglerz" >
           <span class="navbar-toggler-icon"></span>
         </button>
+		<div class="nav">
+			<li>home</li>
+			<li>shop</li>
+			<li>contact</li>
+			<li>about</li>
+		</div>
+		
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
@@ -162,5 +170,6 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 
 <script type="jquery-3.5.1.js"></script>
 <script type="bootstrap.min.js"></script>
+<script src="./app.js" ></script>
 </body>
 </html>
