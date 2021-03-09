@@ -5,21 +5,18 @@
 	<link rel="stylesheet" type="text/css" href="jombotron">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="finalwork.css">
-	<link rel="stylesheet" href="styles.css">
-
-
-	
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stylez.css">
 </head>
 <body>
-
 	<marquee behavior="scroll" direction="left" scrollamount="4"><h4 class="covid19">COVID19 is real, protect yourself, CLEAN your hands often, STAY home as much as you can, KEEP a safe distance, COVER your cough, MAKE use of nose mask......... STAY SAFE:</h4></marquee>
 	<style type="text/css">
 		.covid19{
 			 color: black!important;
 		}
-
 	</style>
+
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container">
     
@@ -30,41 +27,42 @@
 
     	}
     </style>
-</a>
-        
-    <button class="navbar-togglerz" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-		<div class="nav">
-			<li>home</li>
-			<li>shop</li>
-			<li>contact</li>
-			<li>about</li>
-		</div>
-		
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="order.php">Order</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.php">Sign in</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="partnerwithus.php">Partner with us?</a>
-        </li>
-      </ul>
-    </div>
+
+    <div class="topnav">
+    	<div id="myLinks">
+  	 <li class="nav-item ">
+    <a href="index.php">Home</a>
+</li>
+	  <li class="nav-item ">
+    <a href="order.php">Order</a>
+</li>
+<li class="nav-item ">
+    <a href="login.php">Sign in</a>
+</li>
+<li class="nav-item ">
+    <a href="partnerwithus.php">Partner with us</a>
+</li>
   </div>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars fa-2x"></i>
+  </a>
+</div>
+</div>
+
+        
+
+</div>
+  
 </nav>
 
 
 	<!-- <creating of jombotron> -->
 		<div class="jombotron">
 		</div><br><br>
+
+
 		
 <div class="container">
 
@@ -170,6 +168,17 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 
 <script type="jquery-3.5.1.js"></script>
 <script type="bootstrap.min.js"></script>
-<script src="./app.js" ></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<!-- <script src="./app.js" ></script> -->
 </body>
 </html>
