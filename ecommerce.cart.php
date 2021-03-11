@@ -48,7 +48,7 @@ session_start();
 			$_SESSION['total']= $totalPrice;
 			$_SESSION['items']=$_SESSION['items']+$qty;
 
-				header('Location: order2.php');
+				header('Location: order02.php');
 
 
 		} 
@@ -69,7 +69,7 @@ session_start();
 			$_SESSION['total']= $_SESSION['total'] + $totalPrice;
 			$_SESSION['items']= $_SESSION['items']+ $qty;
 
-				header('Location: order2.php');
+				header('Location: order02.php');
 		}
 		
 

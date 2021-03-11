@@ -28,35 +28,20 @@
 	margin-left: 100px;
 }
 
-.img2{
-	height: 550px;
+/* .img2{ */
+	/* height: 550px;
 	margin-left: 150px;
 	margin-right: 100px;
-	
-}
+	 */
+/* } */
 
-.fbk{
-	width: 45px;
-	 
-}
 
-.insta{
-	width: 45px;
 
-}
 
-.email{
-	width: 45px;
-}
 
-.call{
-
-	width: 45px;
-}
-
-.orderimages{
+/* .orderimages{
 	width: 450px;
-}
+} */
 
 .covid19{
 
@@ -64,6 +49,10 @@
 
 }
 
+.my-button{
+	position: fixed;
+	background-color: rebeccapurple;
+}
 
 
 

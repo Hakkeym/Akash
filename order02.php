@@ -80,7 +80,7 @@ echo "<i>Please make your order and thanks for choosing Akash wears</i>";
 
 
 if (!isset($_SESSION['email'])) {
-	header("location:login.php");
+	header("location:loginn.php");
 
 
 }
@@ -107,9 +107,13 @@ while ($row= mysqli_fetch_array($result)) {
 	}
 	echo '<div class="col-md-4">'."<br>";
 
-	echo "<img src='{$image}'  class='image'>"."<br></br>";
-	echo "$price"."<br>";
-  echo "$product_name"."<br>";
+	echo "<img src='{$image}'  class='image' style='outline: 5px solid black ; outline-offset: 5px; height: 270px; width: 295px;'>"."<br></br>";
+
+	echo "<b>PRICE: $price</b>"."<br>";  
+
+
+  echo "<b>PRODUCT: $product_name"."<br>";
+
 	echo "<a href='cart.php?p={$id}' class='btn  btn-primary'>Add to cart</a><br>";
 
 

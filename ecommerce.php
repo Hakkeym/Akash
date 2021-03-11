@@ -17,7 +17,7 @@ else{
 	$_SESSION['total']=$_SESSION['total']+$price;
 	$_SESSION['items']++;
 }
-header('Location:order2.php');
+header('Location:order02.php');
 
 }
 

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="stylez.css">
 </head>
 <body>
-	<marquee behavior="scroll" direction="left" scrollamount="4"><h4 class="covid19">COVID19 is real, protect yourself, CLEAN your hands often, STAY home as much as you can, KEEP a safe distance, COVER your cough, MAKE use of nose mask......... STAY SAFE:</h4></marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="4"><h4 class="covid19">COVID19 is real, PROTECT yourself, CLEAN your hands often, STAY home as much as you can, KEEP a safe distance, COVER your cough, MAKE use of nose mask......... STAY SAFE:</h4></marquee>
 	<style type="text/css">
 		.covid19{
 			 color: black!important;
@@ -17,7 +17,10 @@
 	</style>
 
 
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+
+		
   <div class="container">
     
     <h5 class="yup">Akash Fashion Line</h5>
@@ -28,32 +31,27 @@
     	}
     </style>
 
+	
+
     <div class="topnav">
-    	<div id="myLinks">
-  	 <li class="nav-item ">
-    <a href="index.php">Home</a>
-</li>
-	  <li class="nav-item ">
-    <a href="order.php">Order</a>
-</li>
-<li class="nav-item ">
-    <a href="login.php">Sign in</a>
-</li>
-<li class="nav-item ">
-    <a href="partnerwithus.php">Partner with us</a>
-</li>
-  </div>
-
-
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars fa-2x"></i>
-  </a>
-</div>
-</div>
-
-        
-
-</div>
+		
+	<div id="myLinks">
+		
+	<ul>
+			<li>	<a href="index.php">Home</a></li>
+			<li>	<a href="orderr.php">Order</a></li>
+			<li>	<a href="loginn.php">Sign in</a></li>
+			<li>	<a href="partnerwithhus.php">Partner with us</a></li>
+	</ul>
+		</div>
+	
+    	
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars fa-2x"></i>
+			</a>
+		</div>
+	</div>
+	
   
 </nav>
 
@@ -67,7 +65,7 @@
 <div class="container">
 
 		<b>A demo video of a lady showing her clothes collection, will you like your wardrobe collection akin to this one or even more enchusing? Then you are at the right place to get yourself varities of clothes collection...</b><br><br>
-		<video width="1200" height="240" controls>
+		<video width="1200" height="240" controls >
 				<source src="vd.mp4" type="video/mp4">
 					<source src="movie.ogg" type="video/ogg">
 						your browser does not support the video tag.
@@ -114,16 +112,16 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 	    <div class="row">
 	   <div class="col-md-4">
 
-              <img src="pic1.jpg" class="img">
+              <img src="pic1.jpg" class="img" style='outline: 5px solid black;'>
 		</div><hr>
 
 			<div class="col-md-4">
 
-				<img src="pic2.jpg" class="img">
+				<img src="pic2.jpg" class="img" style='outline: 5px solid black;' >
 			</div><hr>
 
        <div class="col-md-4">
-				<img src="pic7.jpg" class="img"><br>
+				<img src="pic7.jpg" class="img"  style='outline: 5px solid black;'><br>
 	
 		</center>
 	</div>
@@ -138,13 +136,31 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 			<div class="row">
 				<div class="col-md-6">
 
-				<h3>About us</h3><br>
-				Akash Fashion is an enterprise which basically deals with all sort of wears, Be it native dress, Office wear, Coprate wear, English dress. Akash store comprises of unisex attire,We are just fashion designers that gives you that intriguing appearances and make you look enthusing to capture attention anywhere you go. You can patronize us today and you will always be overwhelm by our creativity.
+				<h3>About us</h3>
+				Akash Fashion is an enterprise which basically deals with all sort of wears, Be it native dress, Office wear, Coprate wear, English dress. Akash store comprises of unisex attire, We are just fashion designers that provide you that intriguing appearances and make you look enthusing to capture attention anywhere you go. You can patronize us today and you will always be thrilled.
 			</div>
 
 			<div class="col-md-6"><br>
 				<h3>Contact Us</h3>
-				<img src="fbk.jpeg" class="fbk"><br>
+				<a href="http://WWW.facebook.com/Akash-clothing-Akanke-shifau-357807218373566/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a><br>
+
+				<a href="https://www.instagram.com/Akash_clothing"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> </a><br>
+
+				<a href='https://wa.me/8065162178' target='_blank'><i class= "fa fa-whatsapp fa-2x"></i></a><br>
+
+				<a href="mailto:EmailAddress@.hakkeymshiru7@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+				<!-- <img src="fbk.jpeg" class="fbk"><br>
 				<a href="http://WWW.facebook.com/Akash-clothing-Akanke-shifau-357807218373566/">facebook link</a><br>
 				<img src="insta.jpeg" class="insta"><br>
 				<a href="https://www.instagram.com/Akash_clothing">instagram link</a><br>
@@ -153,7 +169,7 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 				<i><b>Hakkeymshiru7@gmail.com</b></i><br>
 				<img src="wh.png" class="call"><br>
 				Phone Contact/whatsapp contact:<br>
-				<i><b>08065162178/08118983970</b></i>
+				<i><b>08065162178/08118983970</b></i> -->
 			</div>
 	
 
@@ -166,8 +182,7 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 
 
 
-<script type="jquery-3.5.1.js"></script>
-<script type="bootstrap.min.js"></script>
+<!-- <javascript for navbar hamburger functionality> -->
 <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -179,6 +194,6 @@ function myFunction() {
 }
 </script>
 
-<!-- <script src="./app.js" ></script> -->
+
 </body>
 </html>

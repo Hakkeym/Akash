@@ -86,7 +86,7 @@ if (isset($_POST['Login'])) {
 			$_SESSION['password']= $row['password'];
 		}
 
-		header('location:order2.php');
+		header('location:order02.php');
 	}
 
 
