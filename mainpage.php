@@ -19,9 +19,6 @@
 
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-
-		
-  <div class="container">
     
     <h5 class="yup">Akash Fashion Line</h5>
     <style type="text/css">
@@ -50,7 +47,7 @@
 				<i class="fa fa-bars fa-2x"></i>
 			</a>
 		</div>
-	</div>
+	
 	
   
 </nav>
@@ -72,10 +69,10 @@
 
 
 
-			</video>
+			</video><br><br>
 
 		<!-- <creating a container> -->
-			<div class="container"><br><br>
+			<!-- <div class="container"><br><br> -->
 			<div class="row">
 		<div class="col-md-4">
 
@@ -86,6 +83,7 @@
 producing concepts, Making sketches by hand or on the computer, Developing patterns, Overseeing production (Analysing trends in fabrics, colours and shapes, etc.</p>
 			
 		</div>
+		
 		
 
 		
@@ -126,7 +124,7 @@ producing concepts, Making sketches by hand or on the computer, Developing patte
 		</center>
 	</div>
 </div>
-	</div><br>
+	</div></div></div><br>
 	
 
 			
